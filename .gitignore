@@ -1,4 +1,5 @@
-﻿*.ncb
+﻿# ignore trash
+*.ncb
 *.suo
 *.manifest
 *.pdb
