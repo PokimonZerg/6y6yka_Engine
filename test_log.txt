@@ -1,0 +1,3 @@
+0) template.exe - It's work! 
+1) test_blisp_lexer.exe - It's work! 
+Result: 2 - win, and 0 - fail 

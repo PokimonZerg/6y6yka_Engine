@@ -1,0 +1,31 @@
+6y6yka Lisp Tutorial v 1   19:58 03.07.2012
+
+I. Preprocessor.
+  a) include   - include stage
+    1) #include "file.blisp"    - include content from file and preprocess it. File include only ones.
+
+II. Language.
+  a) define    - binding something to his name.
+    1) (define a)               - define variable a, and not set int value.
+    2) (define a 5)             - define variable a, and set it value to 5.
+    3) (define b f)             - define variable b, and set int value to b.
+    4) (define f (lambda () 5)) - define function f.
+  b) lambda    - function defination.
+    1) (lambda () )             - empty function. but it execute.
+    2) (lambda (x) x)           - gives x argument and return it.
+    3) (lambda (f) (f))         - gives f agrument and execute it. also return value.
+    4) ((lambda () ))           - empty func execute.
+    5) ((lambda (x) x) 5)       - execute with argument.
+  c) operators - it is simple.
+    1) (+ 2 3)                  - 2 + 3. "-", "*", "/" also supported.
+    2) (+ 2 3 5)                - yes. we can write like this.
+    3) (set a 5)                - set variable value to 5.
+    5) (= 2 3)                  - compare to operands. "<", ">" also supported.
+  d) stuff     - no comment.
+    1) (if a c d)               - if(a == true) return c; else return d;
+    2) (if a c)                 - if(a == true) return c; else return unknown thing;
+    3) (while a (f))            - while(a == true) f();
+    4) (let (x 5) x)            - define local variable end set it value to 5.
+    5) (begin (+ 2 3) 5)        - container for many expressions.
+  e) comments  - green lines here.
+    1) // comment               - it is one line comment.

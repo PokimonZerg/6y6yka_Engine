@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="test_type"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="C:\Users\Алексей\Desktop\6y6yka_Engine\src"
+	/>
+	<Tool
+		Name="VCPostBuildEventTool"
+		CommandLine="copy $(OutDir)\$(TargetFileName) $(SolutionDir)..\..\$(TargetFileName)"
+	/>
+</VisualStudioPropertySheet>

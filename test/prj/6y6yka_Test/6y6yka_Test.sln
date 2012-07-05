@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template", "template\template.vcproj", "{E6B055B3-356C-4397-9BB4-7333C35B74C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_blisp_lexer", "test_blisp_lexer\test_blisp_lexer.vcproj", "{FACD429D-805F-4451-B7B2-321673356321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6B055B3-356C-4397-9BB4-7333C35B74C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6B055B3-356C-4397-9BB4-7333C35B74C6}.Debug|Win32.Build.0 = Debug|Win32
+		{E6B055B3-356C-4397-9BB4-7333C35B74C6}.Release|Win32.ActiveCfg = Release|Win32
+		{E6B055B3-356C-4397-9BB4-7333C35B74C6}.Release|Win32.Build.0 = Release|Win32
+		{FACD429D-805F-4451-B7B2-321673356321}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FACD429D-805F-4451-B7B2-321673356321}.Debug|Win32.Build.0 = Debug|Win32
+		{FACD429D-805F-4451-B7B2-321673356321}.Release|Win32.ActiveCfg = Release|Win32
+		{FACD429D-805F-4451-B7B2-321673356321}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
