@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template", "template\templa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_blisp_lexer", "test_blisp_lexer\test_blisp_lexer.vcproj", "{FACD429D-805F-4451-B7B2-321673356321}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_blisp_lexer_getnexttoken", "test_blisp_lexer_getnexttoken\test_blisp_lexer_getnexttoken.vcproj", "{41CFF6D1-449B-4086-978C-9D82574A2F2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{FACD429D-805F-4451-B7B2-321673356321}.Debug|Win32.Build.0 = Debug|Win32
 		{FACD429D-805F-4451-B7B2-321673356321}.Release|Win32.ActiveCfg = Release|Win32
 		{FACD429D-805F-4451-B7B2-321673356321}.Release|Win32.Build.0 = Release|Win32
+		{41CFF6D1-449B-4086-978C-9D82574A2F2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41CFF6D1-449B-4086-978C-9D82574A2F2C}.Debug|Win32.Build.0 = Debug|Win32
+		{41CFF6D1-449B-4086-978C-9D82574A2F2C}.Release|Win32.ActiveCfg = Release|Win32
+		{41CFF6D1-449B-4086-978C-9D82574A2F2C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
