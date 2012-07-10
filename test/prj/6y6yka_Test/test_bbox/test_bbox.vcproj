@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="test_blisp_lexer_getnexttoken"
-	ProjectGUID="{41CFF6D1-449B-4086-978C-9D82574A2F2C}"
-	RootNamespace="test_blisp_lexer_getnexttoken"
+	Name="test_bbox"
+	ProjectGUID="{A4797001-F3A5-4907-9C72-E2FC3BF92D49}"
+	RootNamespace="test_bbox"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
