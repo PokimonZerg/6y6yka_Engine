@@ -9,7 +9,7 @@
 #include "b_stack.c"
 #include "b_lisp.c"
 /*----------------------------------------------------------------------------*/
-#define tests_num 11
+#define tests_num 14
 /*----------------------------------------------------------------------------*/
 bchar *right_result[tests_num];
 bchar *input_data[tests_num];
@@ -60,4 +60,7 @@ bvoid build_data()
 	right_result[8]  = L"3"; input_data[8]  = L"((lambda (x) x) 3)";
 	right_result[9]  = L"1"; input_data[9]  = L"((lambda (x y) x) 1 2)";
 	right_result[10] = L"2"; input_data[10] = L"((lambda (x y) y) 1 2)";
+	right_result[11] = L"3"; input_data[11] = L"(bind f (lambda (y) y)) (bind g (lambda (x) x)) (g 3)";
+	right_result[12] = L"3"; input_data[12] = L"((lambda (x) ((lambda (y) y) x)) 3)";
+	right_result[13] = L"5"; input_data[13] = L"(bind a 7) (set a 5)";
 }
