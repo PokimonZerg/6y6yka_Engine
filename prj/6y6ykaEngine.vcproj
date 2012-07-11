@@ -204,6 +204,10 @@
 				RelativePath="..\src\b_pool.c"
 				>
 			</File>
+			<File
+				RelativePath="..\src\b_stack.c"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -248,6 +252,10 @@
 			</File>
 			<File
 				RelativePath="..\src\b_pool.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_stack.h"
 				>
 			</File>
 			<File

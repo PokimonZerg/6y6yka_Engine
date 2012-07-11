@@ -4,6 +4,7 @@
 #include <windows.h>
 #include "b_box.c"
 #include "b_pool.c"
+#include "b_stack.c"
 #include "b_lisp.c"
 /*----------------------------------------------------------------------------*/
 #define num_tests 1
