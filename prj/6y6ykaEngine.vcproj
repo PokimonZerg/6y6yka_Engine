@@ -173,10 +173,6 @@
 				>
 			</File>
 			<File
-				RelativePath="..\src\b_box.c"
-				>
-			</File>
-			<File
 				RelativePath="..\src\b_core.c"
 				>
 			</File>
@@ -220,10 +216,6 @@
 			</File>
 			<File
 				RelativePath="..\src\b_assert.h"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_box.h"
 				>
 			</File>
 			<File
