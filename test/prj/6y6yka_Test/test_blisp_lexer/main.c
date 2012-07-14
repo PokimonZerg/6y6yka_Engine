@@ -2,11 +2,16 @@
 /*                                       6y6yka Engine test                                       */
 /*------------------------------------------------------------------------------------------------*/
 #include <windows.h>
-#include "b_pool.c"
-#include "b_stack.c"
+#include "b_define.h"
+#include "b_align.c"
+#include "b_log.c"
+#include "b_error.c"
+#include "b_file.h"
+#include "b_file.c"
+#include "b_lisp.h"
 #include "b_lisp.c"
 /*------------------------------------------------------------------------------------------------*/
-#define num_tests 35
+#define num_tests 36
 /*------------------------------------------------------------------------------------------------*/
 void build_data(bLisp_TokenClass *_result, wchar_t *_data[num_tests]);
 /*------------------------------------------------------------------------------------------------*/
@@ -70,4 +75,5 @@ void build_data(bLisp_TokenClass *_result, wchar_t *input_data[num_tests])
 	_result[32]= bLisp_RBraceToken;  input_data[32]= L")";
 	_result[33]= bLisp_ErrorToken;   input_data[33]= L"\"error str";
 	_result[34]= bLisp_SetToken;     input_data[34]= L"set";
+	_result[35]= bLisp_NativeToken;  input_data[35]= L"native";
 }
