@@ -11,7 +11,7 @@
 #include "b_lisp.h"
 #include "b_lisp.c"
 /*------------------------------------------------------------------------------------------------*/
-#define tests_num 38
+#define tests_num 40
 /*------------------------------------------------------------------------------------------------*/
 bchar *right_result[tests_num];
 bchar *input_data[tests_num];
@@ -103,6 +103,8 @@ bvoid build_data()
 	right_result[35] = L"1"; input_data[35] = L"(!= 2 5)";
 	right_result[36] = L"C"; input_data[36] = L"\"C\"";
 	right_result[37] = L"C"; input_data[37] = L"(+ 2 3) \"C\"";
+	right_result[38] = L"0"; input_data[38] = L"(get (array 5) 1)";
+	right_result[39] = L"7"; input_data[39] = L"(bind a (array 5)) (set (get a 1) 7) (get a 1)";
 }
 /*------------------------------------------------------------------------------------------------*/
 bint hope(bint _i)
@@ -112,5 +114,7 @@ bint hope(bint _i)
 /*------------------------------------------------------------------------------------------------*/
 void reg_hope(bvoid *_from, bvoid *_to)
 {
-	bLisp_ReturnInt(_to, hope(bLisp_GetIntArg(_from, 0)));
+	bLisp_CheckArgNum(_to, 1);
+
+	bLisp_ReturnNumber(_to, (bfloat)hope((bint)bLisp_GetNumberArg(_from, 0)));
 }
