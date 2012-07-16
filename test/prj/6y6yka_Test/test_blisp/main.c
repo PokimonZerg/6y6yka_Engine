@@ -11,14 +11,14 @@
 #include "b_lisp.h"
 #include "b_lisp.c"
 /*------------------------------------------------------------------------------------------------*/
-#define tests_num 40
+#define tests_num 42
 /*------------------------------------------------------------------------------------------------*/
 bchar *right_result[tests_num];
 bchar *input_data[tests_num];
 /*------------------------------------------------------------------------------------------------*/
 bvoid build_data();
 bint hope(bint _i);
-void reg_hope(bvoid *_from, bvoid *_to);
+void reg_hope(bvoid *_stack);
 /*------------------------------------------------------------------------------------------------*/
 int main()
 {
@@ -30,7 +30,7 @@ int main()
 
 	for(i = 0; i < tests_num; i++)
 	{
-		s[i] = bLisp_OpenScript(input_data[i]);
+		s[i] = bLisp_OpenScript(input_data[i], 0);
 
 		if(!s[i])
 		{
@@ -39,7 +39,7 @@ int main()
 
 		if(i == 25)
 		{
-			bLisp_RegisterFunction(s[i], L"hope", reg_hope, 1);
+			bLisp_RegisterFunction(s[i], L"hope", reg_hope);
 		}
 
 		if(i == 37)
@@ -49,7 +49,7 @@ int main()
 			s[i] = bLisp_OpenCode(L"main.bcode");
 		}
 
-		if(!bLisp_Run(s[i], &result))
+		if(!bLisp_Run(s[i], &result, 0))
 		{
 			return 1;
 		}
@@ -105,6 +105,9 @@ bvoid build_data()
 	right_result[37] = L"C"; input_data[37] = L"(+ 2 3) \"C\"";
 	right_result[38] = L"0"; input_data[38] = L"(get (array 5) 1)";
 	right_result[39] = L"7"; input_data[39] = L"(bind a (array 5)) (set (get a 1) 7) (get a 1)";
+	right_result[40] = L"120"; input_data[40] = 
+		L"(bind fact (lambda (x) (if (< x 3) x (* (fact (- x 1)) x)))) (fact 5)";
+	right_result[41] = L"C"; input_data[41] = L"((lambda () (begin 1 2 3 4 5 \"C\")) )";
 }
 /*------------------------------------------------------------------------------------------------*/
 bint hope(bint _i)
@@ -112,9 +115,7 @@ bint hope(bint _i)
 	return _i + 2;
 }
 /*------------------------------------------------------------------------------------------------*/
-void reg_hope(bvoid *_from, bvoid *_to)
+void reg_hope(bvoid *_stack)
 {
-	bLisp_CheckArgNum(_to, 1);
-
-	bLisp_ReturnNumber(_to, (bfloat)hope((bint)bLisp_GetNumberArg(_from, 0)));
+	bLisp_ReturnNumber(_stack, (bfloat)hope((bint)bLisp_GetNumberArg(_stack, 0)));
 }
