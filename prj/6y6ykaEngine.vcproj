@@ -60,6 +60,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				ShowProgress="0"
+				GenerateManifest="false"
 				GenerateDebugInformation="true"
 				SubSystem="0"
 				TargetMachine="1"
@@ -196,6 +197,30 @@
 				RelativePath="..\src\b_main.c"
 				>
 			</File>
+			<File
+				RelativePath="..\src\b_math.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_matrix4x4.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_render.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_unicode.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_window.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_world.c"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -235,7 +260,39 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_math.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_matrix4x4.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_render.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_settings.h"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_type.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_unicode.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_vector3d.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_window.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_world.h"
 				>
 			</File>
 		</Filter>

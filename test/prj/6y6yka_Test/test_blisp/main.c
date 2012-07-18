@@ -6,6 +6,7 @@
 #include "b_align.c"
 #include "b_log.c"
 #include "b_error.c"
+#include "b_unicode.c"
 #include "b_file.h"
 #include "b_file.c"
 #include "b_lisp.h"
