@@ -41,11 +41,13 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS"
-				MinimalRebuild="true"
+				MinimalRebuild="false"
+				ExceptionHandling="0"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
+				RuntimeTypeInfo="false"
 				WarningLevel="4"
-				DebugInformationFormat="4"
+				DebugInformationFormat="3"
 				CompileAs="1"
 			/>
 			<Tool
@@ -59,7 +61,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="opengl32.lib glu32.lib"
 				ShowProgress="0"
+				LinkIncremental="2"
 				GenerateManifest="false"
 				GenerateDebugInformation="true"
 				SubSystem="0"
@@ -132,7 +136,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="Comctl32.lib"
+				AdditionalDependencies="opengl32.lib glu32.lib"
 				GenerateDebugInformation="true"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
@@ -174,6 +178,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_camera.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_core.c"
 				>
 			</File>
@@ -206,11 +214,19 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_quaternion.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_render.c"
 				>
 			</File>
 			<File
 				RelativePath="..\src\b_unicode.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_vector3d.c"
 				>
 			</File>
 			<File
@@ -233,6 +249,10 @@
 			</File>
 			<File
 				RelativePath="..\src\b_assert.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_camera.h"
 				>
 			</File>
 			<File
@@ -265,6 +285,10 @@
 			</File>
 			<File
 				RelativePath="..\src\b_matrix4x4.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_quaternion.h"
 				>
 			</File>
 			<File
