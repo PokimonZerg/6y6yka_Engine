@@ -178,6 +178,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_api.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_camera.c"
 				>
 			</File>
@@ -191,6 +195,10 @@
 			</File>
 			<File
 				RelativePath="..\src\b_file.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_input.c"
 				>
 			</File>
 			<File
@@ -214,11 +222,19 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_patch.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_quaternion.c"
 				>
 			</File>
 			<File
 				RelativePath="..\src\b_render.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_timer.c"
 				>
 			</File>
 			<File
@@ -248,6 +264,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_api.h"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_assert.h"
 				>
 			</File>
@@ -272,6 +292,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_input.h"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_lisp.h"
 				>
 			</File>
@@ -288,6 +312,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_patch.h"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_quaternion.h"
 				>
 			</File>
@@ -297,6 +325,10 @@
 			</File>
 			<File
 				RelativePath="..\src\b_settings.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_timer.h"
 				>
 			</File>
 			<File
