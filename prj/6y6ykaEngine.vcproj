@@ -169,98 +169,20 @@
 	</References>
 	<Files>
 		<Filter
-			Name="Source Files"
-			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
-			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			Name="src"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
 				RelativePath="..\src\b_align.c"
 				>
 			</File>
 			<File
-				RelativePath="..\src\b_api.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_camera.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_core.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_error.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_file.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_input.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_lisp.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_log.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_main.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_math.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_matrix4x4.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_patch.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_quaternion.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_render.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_timer.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_unicode.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_vector3d.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_window.c"
-				>
-			</File>
-			<File
-				RelativePath="..\src\b_world.c"
-				>
-			</File>
-		</Filter>
-		<Filter
-			Name="Header Files"
-			Filter="h;hpp;hxx;hm;inl;inc;xsd"
-			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
-			>
-			<File
 				RelativePath="..\src\b_align.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_api.c"
 				>
 			</File>
 			<File
@@ -272,7 +194,23 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_camera.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_camera.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_config.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_config.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_core.c"
 				>
 			</File>
 			<File
@@ -284,7 +222,15 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_error.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_error.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_file.c"
 				>
 			</File>
 			<File
@@ -292,7 +238,15 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_input.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_input.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_lisp.c"
 				>
 			</File>
 			<File
@@ -300,15 +254,27 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_log.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_log.h"
 				>
 			</File>
 			<File
-				RelativePath="..\src\b_math.h"
+				RelativePath="..\src\b_main.c"
 				>
 			</File>
 			<File
-				RelativePath="..\src\b_matrix4x4.h"
+				RelativePath="..\src\b_model.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_model.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_patch.c"
 				>
 			</File>
 			<File
@@ -316,7 +282,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\src\b_quaternion.h"
+				RelativePath="..\src\b_render.c"
 				>
 			</File>
 			<File
@@ -328,6 +294,18 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_texture.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_texture.h"
+				>
+			</File>
+			<File
+				RelativePath="..\src\b_timer.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_timer.h"
 				>
 			</File>
@@ -336,11 +314,15 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_unicode.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_unicode.h"
 				>
 			</File>
 			<File
-				RelativePath="..\src\b_vector3d.h"
+				RelativePath="..\src\b_window.c"
 				>
 			</File>
 			<File
@@ -348,9 +330,49 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_world.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_world.h"
 				>
 			</File>
+			<Filter
+				Name="math"
+				>
+				<File
+					RelativePath="..\src\b_math.c"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_math.h"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_matrix4x4.c"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_matrix4x4.h"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_quaternion.c"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_quaternion.h"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_vector3d.c"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_vector3d.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<File
 			RelativePath="..\blisp tutorial.txt"
