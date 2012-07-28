@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_blisp_lexer", "test_bl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_blisp", "test_blisp\test_blisp.vcproj", "{F1C75D09-B3C9-444A-A676-EE0155149EFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_bconfig", "test_bconfig\test_bconfig.vcproj", "{145AFF96-6AA2-45DA-B66F-260AAB055C7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +27,10 @@ Global
 		{F1C75D09-B3C9-444A-A676-EE0155149EFB}.Debug|Win32.Build.0 = Debug|Win32
 		{F1C75D09-B3C9-444A-A676-EE0155149EFB}.Release|Win32.ActiveCfg = Release|Win32
 		{F1C75D09-B3C9-444A-A676-EE0155149EFB}.Release|Win32.Build.0 = Release|Win32
+		{145AFF96-6AA2-45DA-B66F-260AAB055C7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{145AFF96-6AA2-45DA-B66F-260AAB055C7C}.Debug|Win32.Build.0 = Debug|Win32
+		{145AFF96-6AA2-45DA-B66F-260AAB055C7C}.Release|Win32.ActiveCfg = Release|Win32
+		{145AFF96-6AA2-45DA-B66F-260AAB055C7C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

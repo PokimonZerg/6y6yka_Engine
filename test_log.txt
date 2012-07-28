@@ -1,5 +1,5 @@
 0) template.exe - It's work! 
-1) test_blisp.exe - It's work! 
-2) test_blisp_lexer.exe - It's work! 
-3) test_blisp_lexer_getnexttoken.exe - It's work! 
+1) test_bconfig.exe - It's work! 
+2) test_blisp.exe - It's work! 
+3) test_blisp_lexer.exe - It's work! 
 Result: 4 - win, and 0 - fail 
