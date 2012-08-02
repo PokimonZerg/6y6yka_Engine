@@ -190,10 +190,6 @@
 				>
 			</File>
 			<File
-				RelativePath="..\src\b_assert.h"
-				>
-			</File>
-			<File
 				RelativePath="..\src\b_camera.c"
 				>
 			</File>
@@ -290,6 +286,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\b_settings.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\b_settings.h"
 				>
 			</File>
@@ -354,6 +354,10 @@
 				</File>
 				<File
 					RelativePath="..\src\b_matrix4x4.h"
+					>
+				</File>
+				<File
+					RelativePath="..\src\b_point2d.h"
 					>
 				</File>
 				<File
